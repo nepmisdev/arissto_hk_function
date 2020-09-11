@@ -4387,3 +4387,9 @@ function subscriptionform_log ($atts) {
 }
 
 // Hello -GZ
+
+add_shortcode('sw_tan_test', 'sw_tan_test');
+function sw_tan_test(){
+	echo "Hello World";
+
+}
